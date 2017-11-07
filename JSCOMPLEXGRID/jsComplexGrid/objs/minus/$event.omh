@@ -1,0 +1,5 @@
+On evClick
+	If iProducts.iQty>0
+		Calculate iProducts.iQty as iProducts.iQty-1
+		Do method total
+	End If

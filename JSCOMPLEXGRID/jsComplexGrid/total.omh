@@ -1,0 +1,2 @@
+Calculate iProducts.iLineTotal as (iProducts.iPrice*iProducts.iQty)
+Calculate iTotal as totc(iProducts,iLineTotal)

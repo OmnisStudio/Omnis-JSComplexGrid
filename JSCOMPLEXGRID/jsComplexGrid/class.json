@@ -1,0 +1,112 @@
+{
+	"classtype": "kRemoteForm",
+	"internalversion": 3,
+	"designtaskname": "rtRemoteTask",
+	"nextident": 1021,
+	"lastgroupident": 0,
+	"cvardefs": [
+
+	],
+	"ivardefs": [
+		{
+			"name": "iLineTotal",
+			"order": 5,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iPrice",
+			"order": 3,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		},
+		{
+			"name": "iProduct",
+			"order": 2,
+			"type": "kCharacter",
+			"subtype": "kSimplechar",
+			"sublen": 100000000
+		},
+		{
+			"name": "iProducts",
+			"order": 1,
+			"type": "kList",
+			"subtype": "",
+			"sublen": 0
+		},
+		{
+			"name": "iQty",
+			"order": 4,
+			"type": "kInteger",
+			"subtype": "kShortint",
+			"sublen": 0
+		},
+		{
+			"name": "iTotal",
+			"order": 6,
+			"type": "kNumber",
+			"subtype": "k2dp",
+			"sublen": 0
+		}
+	],
+	"properties": {
+		"aligntogrid": false,
+		"alpha": 255,
+		"alwaysenabledobject": "",
+		"animatelayouttransitions": false,
+		"backalpha": 255,
+		"backcolor": "RGB(255,255,255)",
+		"backpattern": 0,
+		"cancelkeyobject": "",
+		"collectperformancedata": false,
+		"componenticon": 0,
+		"componenttype": "kCompStoreHidden",
+		"contextmenu": "",
+		"createdate": "2017-01-10 10:31:54",
+		"currentlayoutbreakpoint": 310,
+		"defaultappearance": "kAppearanceiOS",
+		"desc": "111122",
+		"designshowmobiletitle": true,
+		"disabledefaultcontextmenu": false,
+		"editor": "",
+		"editordata": "",
+		"events": "",
+		"external": true,
+		"forecolor": "RGB(255,255,255)",
+		"horzgrid": 8,
+		"horzscroll": false,
+		"inheritedorder": 1,
+		"issupercomponent": false,
+		"layoutbreakpoints": "310,600",
+		"layouttype": "kLayoutTypeResponsive",
+		"left": 558,
+		"moddate": "2016-11-24 09:25:58",
+		"okkeyobject": "",
+		"serverlessclient": false,
+		"showascheckedout": false,
+		"showgrid": false,
+		"sizetogrid": false,
+		"startfield": 0,
+		"title": {
+			"type": 0,
+			"calc": "Complex Grid"
+		},
+		"top": 157,
+		"userinfo": "",
+		"version": "1",
+		"vertgrid": 8,
+		"vertscroll": false
+	},
+	"layout": {
+		"width": 831,
+		"height": 628,
+		"310": {
+			"height": 500
+		},
+		"600": {
+			"height": 500
+		}
+	}
+}

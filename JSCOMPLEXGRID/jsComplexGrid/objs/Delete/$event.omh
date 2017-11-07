@@ -1,0 +1,8 @@
+On evClick
+	If iProducts.$linecount=1
+		Do iProducts.$assigncols('',0.00,0,0.00)
+	Else
+		Do iProducts.$remove(iProducts.$line) Returns iProducts.iQty
+	End If
+	
+	Do method total

@@ -1,0 +1,9 @@
+;  Enter your initialization code here
+
+Do iProducts.$define(iProduct,iPrice,iQty,iLineTotal)
+Do iProducts.$add('Potatoes',1.99,1)
+Do iProducts.$add('Carrots',2.99,1)
+Do iProducts.$add('Peas',3.99,1)
+
+Do iProducts.$sendall($ref.iLineTotal.$assign(iProducts.iQty*iProducts.iPrice))
+Calculate iTotal as totc(iProducts,iLineTotal)
