@@ -1,6 +1,8 @@
 # Omnis-JSComplexGrid
 Library to show how to use controls within a 'Complex Grid' control to manage the data in a list. The app can be viewed here http://tinyurl.com/jsgallery8, click on ‘Complex Grid’ in the list.
 
+For more information about Complex grid controls, see the tech note: http://www.omnis.net/technotes/tnjc0001.jsp
+
 Requires Omnis Studio 8.1.2 or above.
 
 ## Contents
